@@ -1,12 +1,12 @@
 # MODULO / FUNCION: determinar la cantidad exacta a pedir
-Definir ("cantidad_a_pedir")
+""" Definir ("cantidad_a_pedir")
 
 Si stock_actual < stock_minimo Entonces
      cantidad_a_pedir <- stock_minimo - stock_actual
 Sino
      cantidad_a_pedir <- 0
 FinSi
-FinFuncion
+FinFuncion """
 
 # Matriz: datos de invntario (codigo, nombre, stock actual, stock minimo)
 
@@ -34,3 +34,5 @@ for articulo in inventario:
      print(f"{nombre:<20} | {cantidad_pedir:<15}")
            
 print("========================================")
+
+# continue
